@@ -1,5 +1,11 @@
 
 
+.text_color{
+    color: chartreuse;
+    background: #000;
+}
+/* Suitable */
+
 /* package--------- */
 .card {
     border: none;
@@ -7,6 +13,17 @@
 .card-body {
     margin: 30px 10px;
     align-items: start;
+}
+.card-body h6 {
+    display: none;
+    position: absolute;
+    top: 4%;
+    right: 20%;
+    background: red;
+    padding: 5px 15px;
+} 
+.card-body:hover h6 {
+    display: block;
 }
 .card:hover .card-body {
     background: #3F87F5;
