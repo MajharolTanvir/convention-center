@@ -1,0 +1,45 @@
+
+
+/* package--------- */
+.card {
+    border: none;
+}
+.card-body {
+    margin: 30px 10px;
+    align-items: start;
+}
+.card:hover .card-body {
+    background: #3F87F5;
+    border-radius: 20px;
+    color: white;
+}
+.card:hover button {
+    background: white;
+    border: none;
+}
+
+.option_selector a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.option_selector a i {
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    background: rgba(128, 128, 128, 0.39);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px 10px 5px 0;
+    font-size: 10px;
+}
+.card:hover .option_selector a i {
+    color: white;
+    background: rgb(66, 63, 63);
+}
+
+
+/*  
+footer------------
+*/
+footer {
+    background: #0B0D17;
+}
